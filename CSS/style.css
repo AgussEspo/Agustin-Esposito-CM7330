@@ -31,7 +31,7 @@ nav {
         rgba(18,18,18,0.8) 0%,
         rgba(18,18,18,0.9) 60%,
         rgba(18,18,18,1) 100%
-    ), url(Imagene/gallery3.jpg);
+    ), url(../Imagene/gallery3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -384,7 +384,7 @@ footer .footer-bottom p{
 /* Nosotros */
 .us-section {
     height: 85vh;
-    background: url(Imagene/coffee5.jpg);
+    background: url(../Imagene/coffee5.jpg);
     background-image: cover;
     background-position: center;
     padding: 80px 20px;
