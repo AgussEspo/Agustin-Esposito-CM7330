@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* :root { 
-    --main-background-nav: #121212;
-    --primary-color: #a78976;
-    --text-color-primary-nav: #f5f5f5;
-    --text-color-secondary-nav: #a8a8a8;
-} */
 
 *{
     box-sizing: border-box;
@@ -37,7 +31,7 @@ nav {
         rgba(18,18,18,0.8) 0%,
         rgba(18,18,18,0.9) 60%,
         rgba(18,18,18,1) 100%
-    ), url(/Imagene/gallery3.jpg);
+    ), url(Imagene/gallery3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -390,7 +384,7 @@ footer .footer-bottom p{
 /* Nosotros */
 .us-section {
     height: 85vh;
-    background: url(/Imagene/coffee5.jpg);
+    background: url(Imagene/coffee5.jpg);
     background-image: cover;
     background-position: center;
     padding: 80px 20px;
