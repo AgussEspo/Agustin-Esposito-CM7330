@@ -649,6 +649,8 @@ nav .open{
 }
 
 
+
+
 /* Footer */
 @media(min-width:1024px){
 footer .footer-container .quick-links{
@@ -662,15 +664,62 @@ place-items: end;
 }
 
 
+/* Productos Responsive */
+
+@media(max-width:1024px){
+    .product-section {
+        height: 180vh;
+    }
+    .product-header h2{
+        margin-top: 100px;
+    }
+}
+
+
+/* Nosotros Responsive */
+@media(max-width:1024px){
+    .us-section {
+        height: 150vh;
+    }
+}
+
+
+
+
 /* Contacto Responsive */
 
 @media(max-width:1024px){
+
+    .contact-section{
+        height: 100vh;
+    }
     .contact-section .contact-container {
         grid-template-columns: 1fr;
     }
 }
 
+/* Galeria Responsive */
 
+@media(max-width:1024px){
+  .carousel-section{
+    height: 75vh;
+  }
+ .carousel-section div h2{
+    margin-top: 100px;
+    font-size: 2rem;
+  }  
+
+  .carousel-inner {
+    height: 300px;
+}
+
+.carousel-inner img {
+width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+}
 
 /* 768px */
 @media(max-width:768px){
